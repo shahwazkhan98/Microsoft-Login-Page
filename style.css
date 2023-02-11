@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    height: 100vh;
+    width: 100%;
+    background-color:#d4e1d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    height: 350px;
+    width: 450px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+}
+form img{
+    height: 40px;
+    width: 130px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+.main h1{
+    font-weight: 450;
+    font-size: 25px;
+}
+.main input{
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+.main input:focus{
+    outline: none;
+}
+.main p{
+    font-size: 14px;
+}
+.main a{
+    text-decoration: none;
+    color: #3a8ac8;
+    font-size: 13px;
+}
+.main button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color:#3a8ac8;
+    color: white;
+    margin-left: 70%;
+}
+.main a:hover{
+    border-bottom: 1px solid black;
+}
+.main .nxt-btn:hover{
+    background-color: #05487b;
+}
+
+form .key-section{
+    display: flex;
+    height: 50px;
+    width: 450px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    background-color: rgb(255, 255, 253);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+    /* border: 1px solid; */
+}
+.key-section:hover{
+    background-color: rgb(226, 216, 216);
+}
+
+.key-section img{
+    height: 30px;
+    width: 40px;
+}
+
+.key-section button{
+ font-size: 15px;
+ background: none;
+ border: none;
+ text-align: left;
+ color: rgb(82, 66, 66);
+
+}
